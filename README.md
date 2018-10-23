@@ -20,6 +20,7 @@ Ready-to-use boot.img for installing Magisk.
 * ADB/FASTBOOT Drivers
 * USB Cable
 * [Latest Magisk Manager.apk](https://github.com/topjohnwu/Magisk/releases)
+* [corresponding patched boot.img](https://github.com/xioamimia2/patched-boot-img/releases/latest)
 
 ## Installation
 
