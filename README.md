@@ -53,9 +53,11 @@ You can flash patched boot.img directly to your phone:
 
   
   ```
-  fastboot flash boot_a V.X.X.XX.X.ODIMIFE-PATCHED.IMG
-  fastboot flash boot_b V.X.X.XX.X.ODIMIFE-PATCHED.IMG
+  fastboot flash boot_a replace-with-correct-path/V.X.X.XX.X.ODIMIFE-PATCHED.IMG
+  fastboot flash boot_b replace-with-correct-path/V.X.X.XX.X.ODIMIFE-PATCHED.IMG
   ```
+  
+  (where X's are your phones compilation number)
   
   
   Now reboot you phone:
@@ -72,7 +74,7 @@ That's it!
 > **ATTENTION! Use your phone's version (check under Settings-> About-> Compilation number),** using the wrong one may have unwanted results.
   
   ```
-  fastboot boot V.X.X.XX.X.ODIMIFE-PATCHED.IMG
+  fastboot boot replace-with-correct-path/V.X.X.XX.X.ODIMIFE-PATCHED.IMG
   ```
   
   Your phone will reboot itself.
